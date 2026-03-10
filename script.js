@@ -9,7 +9,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 
 var post_icon = L.icon({
-    iconUrl: 'HLOLL26Kart/Orienteering_symbol.svg',
+    iconUrl: 'Orienteering_symbol.svg',
     iconSize: [32, 32]
 });
 
