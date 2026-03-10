@@ -9,25 +9,25 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 
 var post_icon = L.icon({
-    iconUrl: '/Users/hansurset/Programmering/HLOLL26Kart/Orienteering_symbol.svg',
+    iconUrl: 'HLOLL26Kart/Orienteering_symbol.svg',
     iconSize: [32, 32]
 });
 
-var hus_icon = L.icon({
-    iconUrl: '/Users/hansurset/Programmering/HLOLL26Kart/Logo HL OLL 2026 - utkast 4-2.jpg',
+var logo_icon = L.icon({
+    iconUrl: 'Logo HL OLL 2026 - utkast 4-2.jpg',
     iconSize: [43, 43]
 });
 
 
 // KringsjåSkole
-L.marker([59.962488, 10.730274], {icon: hus_icon})
+L.marker([59.962488, 10.730274], {icon: logo_icon})
     .addTo(map)
     .bindPopup("Kringsjå Skole (Overnatting)");
 
 
 
 // KorsvollSkol
-L.marker([59.96398011854833, 10.752621028418272], {icon: hus_icon})
+L.marker([59.96398011854833, 10.752621028418272], {icon: logo_icon})
     .addTo(map)
     .bindPopup("Korsvoll Skole (IndoorO)");
 
