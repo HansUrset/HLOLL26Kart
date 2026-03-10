@@ -1,8 +1,11 @@
-body {
-  margin: 0;
+#map {
+  width: 100%;      /* full width of parent container */
+  height: 800px;    /* initial height for desktop */
+  max-width: 100%;  /* prevent overflow */
 }
 
-#map {
-  height: 500px;
-  width: 100%;
+@media (max-width: 768px) {  /* mobile screens */
+  #map {
+    height: 600px;   /* smaller height for mobile */
+  }
 }

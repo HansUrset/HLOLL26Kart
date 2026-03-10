@@ -1,21 +1,25 @@
-var map = L.map('map').setView([59.962488, 10.730274], 13);
+var map = L.map('map').setView([59.962488, 10.730274], 12);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; OpenStreetMap contributors'
 }).addTo(map);
 
 
+setTimeout(function() {
+    map.invalidateSize();
+}, 500);
+
 
 
 
 var post_icon = L.icon({
     iconUrl: 'Orienteering_symbol.svg',
-    iconSize: [32, 32]
+    iconSize: [30, 30]
 });
 
 var logo_icon = L.icon({
     iconUrl: 'Logo HL OLL 2026 - utkast 4-2.jpg',
-    iconSize: [43, 43]
+    iconSize: [30, 30]
 });
 
 
