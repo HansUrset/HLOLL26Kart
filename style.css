@@ -1,10 +1,11 @@
-#map {
-  width: 100%;      /* full width of parent container */
-  height: 600px;    /* initial height for desktop */
-  max-width: 100%;  /* prevent overflow */
+body {
+    padding: 0;
+    margin: 0;
 }
-
-
+html, body, #map {
+    height: 100%;
+    width: 100vw;
+}
 
 .leaflet-marker-icon {
   filter: contrast(140%);
