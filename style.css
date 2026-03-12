@@ -1,13 +1,7 @@
 #map {
   width: 100%;      /* full width of parent container */
-  height: 800px;    /* initial height for desktop */
+  height: 600px;    /* initial height for desktop */
   max-width: 100%;  /* prevent overflow */
-}
-
-@media (max-width: 100%) {  /* mobile screens */
-  #map {
-    height: 600px;   /* smaller height for mobile */
-  }
 }
 
 
