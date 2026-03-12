@@ -14,12 +14,12 @@ setTimeout(function() {
 
 var post_icon = L.icon({
     iconUrl: 'Orienteering_symbol.svg',
-    iconSize: [30, 30]
+    iconSize: [40, 40]
 });
 
 var logo_icon = L.icon({
     iconUrl: 'Logo HL OLL 2026 - utkast 4-2.jpg',
-    iconSize: [30, 30]
+    iconSize: [40, 40]
 });
 
 

@@ -9,3 +9,9 @@
     height: 600px;   /* smaller height for mobile */
   }
 }
+
+
+
+.leaflet-marker-icon {
+  filter: contrast(140%);
+}
