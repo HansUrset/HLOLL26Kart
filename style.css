@@ -4,7 +4,7 @@
   max-width: 100%;  /* prevent overflow */
 }
 
-@media (max-width: 768px) {  /* mobile screens */
+@media (max-width: 100%) {  /* mobile screens */
   #map {
     height: 600px;   /* smaller height for mobile */
   }
